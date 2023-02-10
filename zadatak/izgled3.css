@@ -1,0 +1,46 @@
+body{
+    margin-left: 120px;
+    margin-right: 120px;
+    font-family: "Sylfaen";
+    font-size: 20px;
+    background: url(slike/pozadina.jpg);
+    background-repeat: none;
+}
+.prvaslika{
+    float: right;
+    margin: 20px;
+    width: 300px;
+    height: 250px;
+}
+.drugaslika{
+    float: right;
+    width: 350px;
+    height: 275px;
+}
+.prvipasus, .drugipasus{
+    text-align: justify;
+}
+.tabela1{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+.slikastrukture{
+    float: right;
+}
+.dugme{
+    font-family: "MS Sans Serif";
+    border-radius: 25px;
+    background: rgb(233, 160, 226);
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin: 0 45%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.dugme:hover{
+    background-color: rgb(185, 113, 178);
+    transition-duration: 0.4s;
+}
